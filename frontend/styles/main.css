@@ -1,1 +1,8 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+body {
+  background-color: white !important;
+}
+
+.navbar-brand img {
+  height: 100px !important;
+}
+/*# sourceMappingURL=main.css.map */

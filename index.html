@@ -5,14 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="frontend/libraries/bootstrap/css/bootstrap.css"
+      href="frontend/libraries/bootstrap/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="frontend/styles/main.css">
     <title>Document</title>
   </head>
   <body>
+    <div class="container mt-3">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="brand">
+          <a class="navbar-brand" href="">
+            <img src="frontend/images/gradu-logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <nav class="navbar-expand-xl navbar-light bg-white" id="navigation-items">
+          <div class="collapse navbar-collapse  nav-menu" id="navbarSupportedContent">
+            <ul class="navbar-nav d-flex justify-content-around">
+              <li class="nav-item ">
+                <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacts</a>
+              </li>
+              
+            </ul>            
+          </div>
+      </nav>
+      <div id="account-button">
+        <button class="btn btn-sign-up" type="button">
+          Sign Up
+        </button>
+
+        <button class="btn btn-dark btn-primary btn-sign-in" type="button">
+          Sign In
+        </button>
+      </div>
+
+    </div>
 
     <h1>One Page Website</h1>
-    <p>this is the on going one page website</p>
 
     <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
   </body>
