@@ -17,4 +17,10 @@ body {
   color: gray;
   font-size: 14px;
 }
+
+.hero-image {
+  max-width: 58%;
+  height: auto;
+  margin-top: -5px;
+}
 /*# sourceMappingURL=main.css.map */

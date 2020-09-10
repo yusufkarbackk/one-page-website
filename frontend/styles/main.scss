@@ -1,23 +1,27 @@
-body{
-    background-color: white !important;
+body {
+  background-color: white !important;
 }
 
-.navbar-brand{
-    img{
-        max-width: 120px !important;
-    }
+.navbar-brand {
+  img {
+    max-width: 120px !important;
+  }
 }
 
-.hero-text{
-    font-family:libre baskerville;
-    font-weight: bold;
-    font-size: 40px;
+.hero-text {
+  font-family: libre baskerville;
+  font-weight: bold;
+  font-size: 40px;
 }
 
-.hero-subtext{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: gray;
-    font-size: 14px;
+.hero-subtext {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
+  font-size: 14px;
 }
 
-
+.hero-image {
+  max-width: 58%;
+  height: auto;
+  margin-top: -5px;
+}
