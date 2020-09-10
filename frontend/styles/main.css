@@ -3,6 +3,18 @@ body {
 }
 
 .navbar-brand img {
-  height: 100px !important;
+  max-width: 120px !important;
+}
+
+.hero-text {
+  font-family: libre baskerville;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.hero-subtext {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
+  font-size: 14px;
 }
 /*# sourceMappingURL=main.css.map */
